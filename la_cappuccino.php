@@ -8,17 +8,9 @@
 
     <body>
 		<div id="bloc_page">
-			<header>
-				<img src="images/cappuccino_mini.jpg" alt="logo" id="logo"/>
-				<h1>La cappuccino en France</h1>
-				<nav>
-					<ul>
-						<li><a href="la_cappuccino.html">Accueil</a></li>
-						<li><a href="http://lacappuccinoenfrance.forumactif.org/">Forum</a></li>
-					</ul>
-				</nav>
-			</header>
-			
+			<?php 
+				include("en_tete.php") ;
+			?>
 			<p>
 				Bienvenue <br />
 				Voici le site qui présentera cette voiture atypique <br />
